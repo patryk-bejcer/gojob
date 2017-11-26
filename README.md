@@ -1,3 +1,4 @@
 # GoJob - Portal with work based on PHP7/OOP/MySQL
-Database file: "jobportal-db.sql"
-Config file: config.php
+Live demo: http://gojob.patrykbejcer.pl/ <br/>
+Database file: "jobportal-db.sql" <br/>
+Config file: config.php <br/>
