@@ -1,0 +1,272 @@
+/* Your custom styles */
+
+body{
+	height: 100%;
+}
+
+a{
+    color: #6351ce;
+}
+
+.intro-2 {
+    background: url(https://mdbootstrap.com/img/Photos/Others/architecture.jpg)no-repeat center center;
+    background-size: cover;
+    height: 700px;
+}
+.btn .fa {
+    margin-left: 3px;
+}
+.top-nav-collapse {
+    background-color: #424f95 !important; 
+}
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #424f95 !important;
+    } 
+}
+h6 {
+    line-height: 1.7;
+}
+.hm-gradient .full-bg-img {
+    background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.6), rgba(29, 210, 177, 0.6) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.6), rgba(29, 210, 177, 0.6) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.6)), to(rgba(29, 210, 177, 0.6)));
+    background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.6), rgba(29, 210, 177, 0.6) 100%);
+    background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.6), rgba(29, 210, 177, 0.6) 100%); 
+}
+@media (max-width: 450px) {
+    .margins {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .intro-2{
+        height: 370px !important;
+    }
+
+    .intro-2 h6{
+        padding: 0 70px;
+    }
+}
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 1020px; 
+    } 
+}
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:focus, .dropdown .dropdown-menu .dropdown-item:hover {
+    color: #1d1e1f;
+    background-color: #424f95 !important;
+}
+
+.magazine-section .single-news {
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 1.5rem;
+}
+
+
+.dynamicTile .col-sm-2.col-xs-4{
+    padding:5px;
+}
+
+.dynamicTile .col-sm-4.col-xs-8{
+    padding:5px;
+}
+
+.tile{
+    transition: 0.5s;
+}
+
+.tile i {
+    color: #FFF;
+    text-align: center;
+    position: relative;
+    display: block;
+    padding-top: 30px;
+}
+
+.tile h4{
+    text-align: center;
+    color: #FFF;
+    padding-top:10px;
+}
+
+.tile:hover{
+    cursor: pointer;
+}
+
+#tile1{
+    background: #ff4444;
+}
+
+/*#tile1:hover{
+    background: #CC0000;
+}*/
+
+#tile2{
+    background: #ffbb33;
+}
+
+#tile3{
+    background: #00C851;
+}
+
+#tile4{
+    background:#33b5e5;
+}
+
+#tile5{
+    background: #aa66cc;
+}
+
+#tile6{
+    background: #2E2E2E;
+}
+
+#tile7{
+    background: white;
+}
+
+#tile8{
+    background: rgb(209,70,37);
+}
+
+#tile9{
+    background: rgb(0,142,0);
+}
+
+#tile10{
+    background: rgb(0,93,233);
+}
+
+.tilecaption{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%); 
+    margin:0!important;
+    text-align: center;
+    color:white;
+    font-family: Segoe UI;
+    font-weight: lighter;
+}
+
+
+.manage-offers-table i{
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+
+
+table.table a {
+    margin: 0;
+    color: #212529;
+    float: left;
+    margin-right: 5px;
+}
+
+.action-offers{
+    float: left;
+    padding-left: 5px;
+}
+
+.action-offers:hover{
+    cursor: pointer;
+}
+
+.action-offers input{
+    background: #ff4444;
+    color: #FFF;
+    border:none;
+    transition: 0.3s;
+}
+
+.action-offers input:hover{
+    background: #EE3333;
+    cursor: pointer;
+}
+
+
+.classic-blog-listing .single-post h5 {
+    text-align: center;
+    margin-top: 1.3rem;
+}
+
+/* OFFERS SECTION */
+
+.offers h3{
+    font-weight: 500;
+    font-size: 1.25rem !important;
+}
+
+.offers img{
+    margin:auto;
+    display: block;
+}
+
+.offers .read-more{
+    float: left;
+    paddint-top:10px;
+}
+
+              input.hidden {
+    position: absolute;
+    left: -9999px;
+}
+
+#profile-image1 {
+    cursor: pointer;
+    border: 1px solid #6351ce;
+    margin-left: 15px;
+    max-width: 200px;
+}
+    .tital{ font-size:16px; font-weight:500;}
+     .bot-border{ border-bottom:1px #f8f8f8 solid;  margin:5px 0  5px 0}    
+
+.tile h4{
+    padding-bottom: 1em;
+}
+
+.offers p, .offers a{
+    margin-bottom: 10px;
+}
+
+.offers p{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.offers h6{
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.offers-home h3{
+    font-size: 18px !important;
+}
+
+.offers-home p{
+    font-size: 15px !important;
+}
+
+.province{
+    text-transform: capitalize;
+}
+
+.btn{
+    margin-left: 0px;
+}
+
+
+.offers img {
+    margin: auto;
+    display: block;
+    max-height: 100px;
+}
