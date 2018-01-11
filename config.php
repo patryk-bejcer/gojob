@@ -22,7 +22,7 @@ $NewURL = $slash != '/' ? $AbsoluteURL.'/' : $AbsoluteURL;
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASS', '');
-define('DB_DB', 'jobportal-db');
+define('DB_DB', 'gojob');
 
 //Stała dla adresu i lokalizacji aplikacji 
 define('SERVER_ADDRESS', $NewURL);
